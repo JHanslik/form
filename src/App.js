@@ -97,7 +97,7 @@ handleSubmit = (e) => {
             <h1>SUCCESS !</h1>
             <h2>{this.state.firstName} {this.state.lastName}</h2>
             <p>{this.state.email}</p>
-            <img src="https://i.gifer.com/T3MX.gif" alt="" />
+            <img src="https://i.gifer.com/T3MX.gif" alt="Success dance !" className="container"/>
          </div>
           :
             <Form

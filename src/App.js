@@ -75,7 +75,9 @@ handlePasswordChange = (e) => {
 
 handleRememberMeChange = (e) => {
   this.setState ({
-    rememberMe: !this.state.rememberMe
+    rememberMe: e.target.checked
+  }, () => {
+    console.log(this.state.rememberMe)
   })
 }
 
